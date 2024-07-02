@@ -1,6 +1,8 @@
 body {
     margin :  0  ;  
     padding  :  0    ; 
+    height : 100%  ;  
+
 
 }
 
@@ -40,19 +42,16 @@ body {
 
 #custom-hero-section {
     background-color: #0C0C0C;
-    color :  white   ; 
-        height: 100vh; /* Full viewport height */
+    color: white;
+    height: 100vh; /* Full viewport height */
     display: flex;
     align-items: center; /* Center the content vertically */
-    width :100%  ; 
-    
-
+    width: 100%;
 }
 
-#inner-hero{
-    width: 80%   ; 
-    margin: auto auto    ;  
-
+#inner-hero {
+    width: 80%;
+    margin: auto;
 }
 
 
