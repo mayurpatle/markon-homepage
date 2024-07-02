@@ -1,0 +1,83 @@
+body {
+    margin :  0  ;  
+    padding  :  0    ; 
+
+}
+
+.navbar  {
+    width   : 70%     ; 
+    border-bottom :  solid  1px  rgb(230, 221, 221)  ; 
+    margin : auto auto     ; 
+    height : 6.375rem  ;  
+
+
+}
+
+.navigation {
+    height :    6.375rem   ; 
+    border-bottom :  solid  1px  rgb(230, 221, 221)  ;  
+
+}
+
+.navbar-nav .nav-link {
+            color: #0C0C0C !important;
+            background-color: #fff !important;
+            border-radius: 5px;
+            margin-left: 10px;
+        }
+.dropdown-menu {
+            background-color: #fff !important;
+            color :  #0C0C0C !important
+        }
+.dropdown-item {
+            color: #0C0C0C !important;
+        }
+.dropdown-item:hover {
+            background-color: #1C1C1C !important;
+            color :  #fff  !important ;  
+
+        }
+
+#custom-hero-section {
+    background-color: #0C0C0C;
+    color :  white   ; 
+        height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center; /* Center the content vertically */
+    width :100%  ; 
+    
+
+}
+
+#inner-hero{
+    width: 80%   ; 
+    margin: auto auto    ;  
+
+}
+
+
+
+
+
+
+
+        /* Media queries for different screen sizes */
+
+/* Large screens (desktops) */
+@media only screen and (min-width: 1200px) {
+  
+}
+
+/* Medium screens (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  
+}
+
+/* Small screens (mobiles) */
+@media only screen and (max-width: 767px) {
+  .navbar{
+    width   :  100%  ;   
+
+  }
+}
+
