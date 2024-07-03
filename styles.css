@@ -13,7 +13,7 @@ body , html   {
     height : 6.375rem  ; 
     position: sticky; 
     z-index:1030  ; 
-    
+
 
 
 }
@@ -33,10 +33,12 @@ body , html   {
         }
 .dropdown-menu {
             background-color: #fff !important;
-            color :  #0C0C0C !important
+            color :  #0C0C0C !important  ; 
+            z-index : 1030 !important   
         }
 .dropdown-item {
             color: #0C0C0C !important;
+            z-index :  1030 !important  
         }
 .dropdown-item:hover {
             background-color: #1C1C1C !important;
