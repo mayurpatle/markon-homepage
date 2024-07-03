@@ -49,7 +49,7 @@ body , html   {
 #custom-hero-section {
     background-color: #0C0C0C;
     color: white;
-    height: 94.07vh; /* Full viewport height */
+    height: calc(100vh   - 6.375rem); /* Full viewport height */
     display: flex;
     align-items: center; /* Center the content vertically */
     width: 100% ; 
