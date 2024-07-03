@@ -12,6 +12,8 @@ body , html   {
     margin : auto auto     ; 
     height : 6.375rem  ; 
     position: sticky; 
+    z-index:1030  ; 
+    
 
 
 }
@@ -45,7 +47,7 @@ body , html   {
 #custom-hero-section {
     background-color: #0C0C0C;
     color: white;
-    height: 100vh; /* Full viewport height */
+    height: 94.07vh; /* Full viewport height */
     display: flex;
     align-items: center; /* Center the content vertically */
     width: 100% ; 
@@ -73,10 +75,7 @@ body , html   {
 
 /* Large screens (desktops) */
 @media only screen and (min-width: 1200px) {
-    #custom-hero-section {
-        height : 85vh   ;  
-
-    }
+    
   
 }
 
