@@ -40,6 +40,7 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     
     <link rel="stylesheet" href="playground.css">
+    <link rel="stylesheet" href="styles.css">
     
   </head>
   <body>
@@ -51,8 +52,8 @@
         <button
           class="navbar-toggler"
           type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
           aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
@@ -60,7 +61,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav ms-auto">
             
             <li class="nav-item">
               <a class="nav-link" href="./playground.html">Playground</a>
@@ -77,18 +78,18 @@
               >
                 Support
               </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a
                   class="dropdown-item"
                   href="https://github.com/NofiniteTechnologies/markon"
                   >On Github</a
-                >
-                <a class="dropdown-item" href="#">On Twitter</a>
-                <a class="dropdown-item" href="#">On Linkedin</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Need help?</a>
+                ></li>
+                <li><a class="dropdown-item" href="#">On Twitter</a></li>
+                <li><a class="dropdown-item" href="#">On Linkedin</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Need help?</a></li>
                 <!-- Add more items as needed -->
-              </div>
+              </ul>
             </li>
           </ul>
         </div>
