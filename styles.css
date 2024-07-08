@@ -5,25 +5,32 @@ body , html   {
 
 
 }
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height :    6.375rem   ; 
+    border-bottom :  solid  1px  rgb(230, 221, 221)  ; 
+    display: flex;
+    align-items: center; 
+    background-color: white;
+}
 
-.navbar  {
+.navigation .navbar  {
     width   : 70%     ; 
     border-bottom :  solid  1px  rgb(230, 221, 221)  ; 
-    margin : auto auto     ; 
-    height : 6.375rem  ; 
-    position: sticky; 
+    margin : auto   ; 
+    height: 100%;
+    
     z-index:1030  ; 
+     
+    
+    }
 
 
 
-}
 
-.navigation {
-    height :    6.375rem   ; 
-    border-bottom :  solid  1px  rgb(230, 221, 221)  ;  
-    position: sticky;
-
-}
 
 .navbar-nav .nav-link {
             color: #0C0C0C !important;
@@ -47,6 +54,7 @@ body , html   {
         }
 
 #custom-hero-section {
+    margin-top:6.375rem  ;  
     background-color: #0C0C0C;
     color: white;
     height: calc(100vh   - 6.375rem); /* Full viewport height */

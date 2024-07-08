@@ -1,0 +1,149 @@
+body {
+  background-color: #faf9f6;
+}
+body , html   {
+    margin :  0  ;  
+    padding  :  0    ; 
+    height : 100%  ;  
+
+
+}
+
+.code {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.container {
+  display: flex;
+  background-color: #fdfcfc;
+  border: solid 1px rgb(171, 166, 166);
+  width: 100%;
+  box-sizing: border-box;
+  flex-direction: row;
+  max-width: 100%;
+}
+
+.editor,
+.output {
+  width: 100%;
+  padding: 0.625rem;
+  border: 1px solid #ccc;
+  margin: 0.625rem;
+  border-radius: 10px;
+  box-sizing: border-box;
+  min-height: 25%;
+}
+
+.toolbar {
+  border: solid 1px rgb(171, 166, 166);
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: left;
+  gap: 5px;
+  padding: 10px;
+  height: 50px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.toolbar button {
+  border: solid 1px black;
+}
+
+.title h1 {
+  text-align: center;
+  font-size: 6.25rem;
+  font-weight: lighter;
+  font-family: Quicksand, sans-serif;
+  margin-top: 6.375rem;
+}
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height :    6.375rem   ; 
+    border-bottom :  solid  1px  rgb(230, 221, 221)  ; 
+    display: flex;
+    align-items: center; 
+    background-color: white;
+}
+
+.navigation .navbar  {
+    width   : 70%     ; 
+    border-bottom :  solid  1px  rgb(230, 221, 221)  ; 
+    margin : auto   ; 
+    height: 100%;
+    
+    
+     
+    
+    }
+
+.navbar-nav .nav-link {
+            color: #0C0C0C !important;
+            background-color: #fff !important;
+            border-radius: 5px;
+            margin-left: 10px;
+        }
+.dropdown-menu {
+            background-color: #fff !important;
+            color :  #0C0C0C !important  ; 
+            z-index : 1030 !important   
+        }
+.dropdown-item {
+            color: #0C0C0C !important;
+            z-index :  1030 !important  
+        }
+.dropdown-item:hover {
+            background-color: #1C1C1C !important;
+            color :  #fff  !important ;  
+
+        }
+
+@media only screen and (min-width: 1200px) {
+  .title h1 {
+    font-size: 7rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .title h1 {
+    font-size: 5.5rem;
+  }
+}
+@media (max-width: 640px) {
+    .container {
+      flex-direction: column !important;
+    }
+    .editor, .output {
+      width: 100% !important;
+      
+    }
+  }
+
+@media only screen and (max-width: 767px) {
+  .title h1 {
+    font-size: 4rem;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+}
+
+pre {
+  background: white;
+  border-radius: 5px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+
+.highlight {
+  background: yellow;
+  display: inline;
+}
