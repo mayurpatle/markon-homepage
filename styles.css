@@ -89,6 +89,12 @@ body , html   {
   border:  solid  1px rgb(204, 198, 198); 
   border-radius :  10px ; 
   padding : 10px ; 
+  
+
+}
+
+.info:hover{
+  transform : scale(1.1)  ; 
 
 }
 
