@@ -150,7 +150,7 @@
           </p>
           <br />
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button type="button" class="btn btn-dark btn-lg px-4 me-md-2">
+            <button type="button" class="btn btn-dark btn-lg px-4 me-md-2" onclick="scrollToSection()">
               Getting Started
             </button>
           </div>
@@ -160,9 +160,9 @@
     
     <!-- Docs  section    -->
 
-    <div class="docs flex  flex-col gap-5 mt-36 ">
+    <div class="docs flex  flex-col gap-5 mt-36 " id="docs">
       <!-- 1 -->
-      <div class="flex flex-col items-center mt-2">
+      <div class="docs-container flex flex-col items-center mt-2">
         <div class="info flex flex-col items-center gap-3 w-4/5">
           <h1 class="text-2xl font-bold w-4/5 text-center ">Markon Syntax</h1>
           <p class="text-gray-600 w-4/5 text-center ">
@@ -440,6 +440,7 @@ Introduce a line break with #br#.
     
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
